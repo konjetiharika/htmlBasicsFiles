@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      label{
+        background-color: rgb(69, 187, 223)
+        
+      }
+      input{
+        background-color: cornsilk;
+      }
+      table{
+        background-color: hsl(321, 86%, 67%);
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1" align="center" width="500" height="300">
+      <tr>
+        <td>
+          <h1 align="center" valign="top">form example</h1>
+          <form action="success.html">
+            <fieldset>
+                <legend>Personal Details</legend>
+            <label>Username: </label>
+            <input type="text" placeholder="capitals only" /><br />
+            <label>Password:</label>
+            <input type="password" placeholder="type a strong password" /><br />
+            <label> Email:</label>
+            <input
+              type="email"
+              placeholder="@ mandatory"
+              value="@gmail.com"
+            /><br />
+            <label>DoB:</label>
+            <input type="date" placeholder="dd/mm/yyyy" /><br />
+            <label>Age:</label>
+            <input
+              type="number"
+              placeholder="enter age"
+              min="18"
+              max="21"
+            /><br />
+            </fieldset>
+            <label> Gender:</label>
+            <input type="radio" name="gender" />Male
+            <input type="radio" name="gender" />Female
+            <input type="radio" name="gender" />others<br />
+            <label>Languages known:</label>
+            <input type="checkbox" value="telugu" />telugu <input type="checkbox" value="hindi" />hindi
+            <input type="checkbox" value="marati" />marati <input type="checkbox" value="urdu" />urdu <br>
+            <label >select your city</label>
+            <select >
+                <option value="hyderbad">hyderbad</option>
+                <option value="kphp">kphp</option>
+                <option value="vijayawada">vijayawada</option>
+                <option value="vizag">vizag</option>
+                <option value="nandyal">nandyal</option>
+
+            </select> <br> 
+            <label >comments:</label> 
+            <textarea rows="5" ></textarea><br>
+            <input type="submit"> 
+            
+        </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
